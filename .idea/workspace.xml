@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dbc4d24-52f9-4e51-b088-d99674abaade" name="Changes" comment="&quot;update config&quot;">
+      <change afterPath="$PROJECT_DIR$/config-data/client-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/ClientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/test/java/com/example/client/ClientApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/market/src/main/java/com/example/market/controller/MarketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/controller/MarketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/src/main/java/com/example/market/entity/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/entity/Market.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/src/main/java/com/example/market/service/MarketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/service/MarketService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662501061816</updated>
       <workItem from="1662501063378" duration="80000" />
-      <workItem from="1662501169662" duration="3223000" />
+      <workItem from="1662501169662" duration="3870000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;update config&quot;">
       <created>1662502720912</created>

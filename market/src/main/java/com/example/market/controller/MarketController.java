@@ -13,10 +13,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/market")
 public class MarketController {
-
     @Autowired
     MarketService marketService;
-
 
     @GetMapping("/all")
     public ResponseEntity<List<Market>> findAll(){
