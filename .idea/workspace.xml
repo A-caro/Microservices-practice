@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dbc4d24-52f9-4e51-b088-d99674abaade" name="Changes" comment="&quot;update config&quot;">
-      <change afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/entity/Market.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/repository/MarketRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/service/MarketService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/src/main/java/com/example/market/controller/MarketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/controller/MarketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/src/main/java/com/example/market/entity/Market.java" beforeDir="false" afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/entity/Market.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/src/main/java/com/example/market/service/MarketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/service/MarketService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,13 @@
   }
 }]]></component>
   <component name="RunManager" selected="Spring Boot.MarketApplication">
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.client.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.configservice.ConfigServiceApplication" />
@@ -93,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662501061816</updated>
       <workItem from="1662501063378" duration="80000" />
-      <workItem from="1662501169662" duration="1793000" />
+      <workItem from="1662501169662" duration="3223000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;update config&quot;">
       <created>1662502720912</created>
