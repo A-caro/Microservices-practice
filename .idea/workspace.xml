@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dbc4d24-52f9-4e51-b088-d99674abaade" name="Changes" comment="" />
+    <list default="true" id="4dbc4d24-52f9-4e51-b088-d99674abaade" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +35,18 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/Catampis/Desktop/proyecto/microservice",
     "spring.configuration.checksum": "c1c16452b04650ea34d1463da2739f3b"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.MarketApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaApplication">
     <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.configservice.ConfigServiceApplication" />
@@ -70,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662501061816</updated>
       <workItem from="1662501063378" duration="80000" />
-      <workItem from="1662501169662" duration="920000" />
+      <workItem from="1662501169662" duration="1222000" />
     </task>
     <servers />
   </component>
