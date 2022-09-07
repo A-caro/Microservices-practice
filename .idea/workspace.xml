@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dbc4d24-52f9-4e51-b088-d99674abaade" name="Changes" comment="&quot;update config&quot;" />
+    <list default="true" id="4dbc4d24-52f9-4e51-b088-d99674abaade" name="Changes" comment="&quot;update config&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/repository/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/service/ClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoice/src/main/java/com/example/invoice/entity/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/invoice/src/main/java/com/example/invoice/entity/Invoice.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,8 +62,9 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Spring Boot.ClientApplication">
+  <component name="RunManager" selected="Spring Boot.InvoiceApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.client.ClientApplication" />
       <method v="2">
@@ -79,19 +86,19 @@
       </method>
     </configuration>
     <configuration name="InvoiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
       <module name="invoice" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.invoice.InvoiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="market" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.market.MarketApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ClientApplication" />
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.InvoiceApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -105,7 +112,7 @@
       <workItem from="1662501169662" duration="11819000" />
       <workItem from="1662515285189" duration="143000" />
       <workItem from="1662557216934" duration="124000" />
-      <workItem from="1662557384867" duration="1327000" />
+      <workItem from="1662557384867" duration="3921000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;update config&quot;">
       <created>1662502720912</created>
