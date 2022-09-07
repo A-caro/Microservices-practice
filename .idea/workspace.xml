@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4dbc4d24-52f9-4e51-b088-d99674abaade" name="Changes" comment="&quot;update config&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/repository/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/repository/ClientRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/service/ClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/service/ClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/invoice/src/main/java/com/example/invoice/entity/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/invoice/src/main/java/com/example/invoice/entity/Invoice.java" afterDir="false" />
-    </list>
+    <list default="true" id="4dbc4d24-52f9-4e51-b088-d99674abaade" name="Changes" comment="&quot;update config&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +106,7 @@
       <workItem from="1662501169662" duration="11819000" />
       <workItem from="1662515285189" duration="143000" />
       <workItem from="1662557216934" duration="124000" />
-      <workItem from="1662557384867" duration="3921000" />
+      <workItem from="1662557384867" duration="4323000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;update config&quot;">
       <created>1662502720912</created>
@@ -121,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662502720912</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;update config&quot;">
+      <created>1662567587362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662567587362</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
