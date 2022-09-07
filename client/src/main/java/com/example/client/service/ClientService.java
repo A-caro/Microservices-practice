@@ -25,5 +25,8 @@ public class ClientService {
                 () -> new Exception("No existe cliente con " + id)
         );
     }
+    public Client createClient(Client client){
+        return clientRepository.save(client);
+    }
 
 }
