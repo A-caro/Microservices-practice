@@ -5,18 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dbc4d24-52f9-4e51-b088-d99674abaade" name="Changes" comment="&quot;update config&quot;">
-      <change afterPath="$PROJECT_DIR$/config-data/client-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_3_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/entity/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/repository/ClientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/example/client/service/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/feignclients/ClientFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/model/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/example/client/ClientApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/test/java/com/example/client/ClientApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/market/src/main/java/com/example/market/controller/MarketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/controller/MarketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/market/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market/src/main/java/com/example/market/service/MarketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/market/src/main/java/com/example/market/service/MarketService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +74,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Spring Boot.MarketApplication">
+  <component name="RunManager" selected="Spring Boot.ClientApplication">
     <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.client.ClientApplication" />
@@ -108,7 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1662501061816</updated>
       <workItem from="1662501063378" duration="80000" />
-      <workItem from="1662501169662" duration="3870000" />
+      <workItem from="1662501169662" duration="9381000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;update config&quot;">
       <created>1662502720912</created>
