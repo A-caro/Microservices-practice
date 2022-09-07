@@ -9,6 +9,7 @@
         <module name="market" />
         <module name="client" />
         <module name="config-service" />
+        <module name="invoice" />
         <module name="eureka" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="client" target="1.8" />
       <module name="config-service" target="1.8" />
       <module name="eureka" target="1.8" />
+      <module name="invoice" target="11" />
       <module name="market" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +26,7 @@
       <module name="client" options="-parameters" />
       <module name="config-service" options="-parameters" />
       <module name="eureka" options="-parameters" />
+      <module name="invoice" options="-parameters" />
       <module name="market" options="-parameters" />
     </option>
   </component>
