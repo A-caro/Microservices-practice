@@ -16,4 +16,8 @@ public class InvoiceService {
         return invoiceRepository.findAll();
     }
 
+    public List<Invoice> getInvoice(Long clientId){
+        return invoiceRepository.findByClientId(clientId);
+    }
+
 }

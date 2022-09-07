@@ -1,5 +1,4 @@
-package com.example.invoice.entity;
-
+package com.example.client.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,6 +19,5 @@ public class Invoice {
     private Long id;
     private String number;
     private String article;
-    private String price;
     private Long clientId;
 }

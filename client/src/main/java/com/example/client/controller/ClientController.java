@@ -9,7 +9,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
+import java.util.Map;
 
 
 @RestController
@@ -40,6 +40,11 @@ public class ClientController {
     public ResponseEntity<Client> createClient(@RequestBody Client client){
         Client addclient = clientService.createClient(client);
         return ResponseEntity.ok(addclient);
+    }
+
+    @GetMapping("/invoice/{clientId}")
+    public ResponseEntity<Map<String, Object>> getInvoice(@PathVariable("clientId") Long clientId) {
+        return ResponseEntity.ok(clientService.getInvoice(clientId));
     }
 
 
