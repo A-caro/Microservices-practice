@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 
 @Service
@@ -33,7 +34,6 @@ public class ClientService {
     public Client createClient(Client client){
         return clientRepository.save(client);
     }
-
     public Map<String, Object> getInvoice(Long clientId) {
         Map<String, Object> invoiceByClient = new HashMap<>();
         Client client = clientRepository.findById(clientId).orElse(null);
@@ -41,7 +41,6 @@ public class ClientService {
         List<Invoice> invoices = invoiceFeign.getInvoice(clientId);
         invoiceByClient.put("Invoices", invoices);
         return invoiceByClient;
-
     }
 
 }

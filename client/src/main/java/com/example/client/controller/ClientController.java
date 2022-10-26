@@ -22,7 +22,12 @@ public class ClientController {
 
     @GetMapping
     public ResponseEntity<?> getClient(){
-        return ResponseEntity.ok(clientService.getAll());
+        try{
+            return ResponseEntity.status(HttpStatus.OK).body(clientService.getAll());
+        }catch (Exception e){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Por favor intente en otro momento" + e.getMessage());
+        }
+
     }
 
     @GetMapping("/{id}")
